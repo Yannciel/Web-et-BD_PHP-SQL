@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--j'ai déclaré le type de document -->
+
+<head>
+	<title>Fontaines à Paris </title>
+	<!--le titre qui va s'afficher sur l'onglet -->
+	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+	<meta name ="authors"  content="MingqiangWang"/>
+	<meta name="description" content="Projet-Web et base de données"/>
+	<meta  name ="keywords" content="xhtml,inalco,cours,projet"/>
+	<link href="fonc3.css" type="text/css" rel="stylesheet"/>
+	<!--
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="projet.js"></script>
+	-->
+	   <!--toutes les informations liées à cette page -->
+</head>
+
+<body>
+	<header>
+	<h1>
+	<center>
+	Projet Plurital 
+	<br/>
+	Fontaines à Paris
+	<br/>
+	</center>
+	</h1>
+	</header>
+
+	<hr></hr>
+	<center>
+	<ul  class="menu">
+		<li><a href="index.html">Accueil</a></li>
+		<li><a href="fonc1.html" target="Fonctionnalité_1">Fonctionnalité 1</a></li>
+		<li><a href="fonc2.html" target="Fonctionnalité_2">Fonctionnalité 2</a></li>
+		<li><a href="fonc3.html" target="Fonctionnalité_3">Fonctionnalité 3</a></li>
+	</ul>
+
+	</center>
+	<hr></hr>
+
+			<center>	
+			<h2>Trouver une fontaine pour boire !!</h2>
+			</center>
+			<center>
+
+			<form method="get" action="fonc3.php">
+			<fieldset>
+ 			<legend>Recherche par Id</legend>
+ 			<br/>
+ 			<input type="text" name="recherche"/>
+ 			<input type="submit" name="Recherche1" value="Go!"/>
+ 				</fieldset>
+ 			</form>
+
+            <form method="get" action="fonc3.php">
+ 			<fieldset class="avance">
+ 			<legend>Recherche avancée</legend>
+ 			<label>Arrondissement </label>
+ 			<select name="Arrondissement">
+			<option value ="75001"> 75001</option>
+			<option value ="75002"> 75002</option>
+			<option value ="75003"> 75003</option>
+			<option value ="75004"> 75004</option>
+			<option value ="75005"> 75005</option>
+			<option value ="75006"> 75006</option>
+			<option value ="75007"> 75007</option>
+			<option value ="75008"> 75008</option>
+			<option value ="75009"> 75009</option>
+			<option value ="75010"> 75010</option>
+			<option value ="75011"> 75011</option>
+			<option value ="75012"> 75012</option>
+			<option value ="75013"> 75013</option>
+			<option value ="75014"> 75014</option>
+			<option value ="75015"> 75015</option>
+			<option value ="75016"> 75016</option>
+			<option value ="75017"> 75017</option>
+			<option value ="75018"> 75018</option>
+			<option value ="75019"> 75019</option>
+			<option value ="75020"> 75020</option>
+			</select>
+			<br/><br/>
+			<label>Potable</label>
+			<select name="Potable">
+				<option value ="Oui">Oui</option>
+				<option value ="Non">Non</option>
+			</select>
+			<br/><br/>
+			<label>Ouvert_hiver</label>
+			<select name="Ouvert">
+				<option value ="Oui">Oui</option>
+				<option value ="Non">Non</option>
+			</select>
+			<br/><br/>
+
+  			<input type="submit" name="Recherche2" value="Go!"/>
+  			</fieldset>
+  			</form>
+</center>
+<footer> © Mingqiang Wang </footer>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+header{
+	font-size:35px;
+	color:white;
+	background-image: url(../Images/index2.jpg) ;
+  	background-position:center;
+}
+
+h2{
+	font-family:Courier;
+}
+
+h4{
+	font-size: 20px;
+	font-family:Courier;
+}
+
+p{
+	font-family:Courier, serif;
+	font-size: 20px;
+	text-align: center;
+	text-indent: 1cm;
+}
+
+ul li
+{	
+	font-family:Courier, serif;
+	display:inline;
+	list-style-type: none;
+	padding: 10px;
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+a:link {color:#62B3DF;}	
+a:visited {color:#0066FF;}
+a:hover {background-color: gold;}
+
+hr{
+	border-color: #0066FF;
+}
+footer{
+	font-size: 20px;
+	font-family:Courier;
+	text-align: center;
+}
+
+#Photo{
+	width: 675px;
+	height: 675px;
+	display: table-cell;
+	padding: 2px;
+	float:left;
+	font-family: Courier, serif;
+}
+
+select{
+	font-family:Courier;
+	width: 200px;
+	-webkit-appearance: menulist-button;
+    height:30px;
+    font-size: 16px;
+}
+
+input{
+	font-size: 25px;
+	color:white;
+	background-color: #3399FF;
+	font-family:Courier;
+}
+
+label{
+	font-family:Courier;
+	font-size: 20px;
+}
+
+

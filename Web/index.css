@@ -1,0 +1,75 @@
+header{
+	font-size:35px;
+	color:white;
+	background-image: url(../Images/index1.png) ;
+  	background-position:center;
+}
+
+hr{
+	border-color: #FFC0CB;
+}
+
+p,h3{
+	font-family:Courier, serif;
+	font-size: 20px;
+	text-align: center;
+	text-indent: 1cm;
+}
+
+ul li
+{	
+	font-family:Courier, serif;
+	display:inline;
+	list-style-type: none;
+	padding: 10px;
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+a:link {color:#62B3DF;}	
+a:visited {color:pink;}
+a:hover {background-color: gold;}
+
+footer{
+	font-size: 20px;
+	font-family:Courier;
+		text-align: center;
+}
+
+#p1{
+	width: 650px;
+	height: 500px;
+	display: table-cell;
+	float: left;
+
+}
+
+#Image{
+	display: table-cell;
+	width:600px;
+	height:750px;
+}
+
+#Image {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+#Image:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+#Photo{
+	width: 650px;
+	height: 500px;
+	display: table-cell;
+	padding: 10px;
+}
+

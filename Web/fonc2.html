@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--j'ai déclaré le type de document -->
+
+<head>
+	<title>Fontaines à Paris </title>
+	<!--le titre qui va s'afficher sur l'onglet -->
+	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+	<meta name ="authors"  content="MingqiangWang"/>
+	<meta name="description" content="Projet-Web et base de données"/>
+	<meta  name ="keywords" content="xhtml,inalco,cours,projet"/>
+	<link href="fonc2.css" type="text/css" rel="stylesheet"/>
+	<!--
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="projet.js"></script>
+	-->
+	   <!--toutes les informations liées à cette page -->
+</head>
+
+<body>
+	<header>
+	<h1>
+	<center>
+	Projet Plurital 
+	<br/>
+	Fontaines à Paris
+	<br/>
+	</center>
+	</h1>
+	</header>
+
+	<hr></hr>
+	<center>
+	<ul class="menu">
+		<li><a href="index.html">Accueil</a></li>
+		<li><a href="fonc1.html" target="Fonctionnalité_1">Fonctionnalité 1</a></li>
+		<li><a href="fonc2.html" target="Fonctionnalité_2">Fonctionnalité 2</a></li>
+		<li><a href="fonc3.html" target="Fonctionnalité_3">Fonctionnalité 3</a></li>
+	</ul>
+
+	</center>
+	<hr></hr>
+
+			<center>	
+			<h2>Votre participation est importante !!</h2>
+			</center>
+			
+			<center>
+			<fieldset>
+	<h4>Quelques points importants!</h4>
+	<ul class="pointrouge">
+		<li>Les champs avec <font color="red" >*</font> est obligatoire.</li>
+		<li>Vous pouvez mettre à jour une photo avec un url.</li>
+			<li class="pointnoir">Quelques exemples desous.</li>
+			<li class="point">../Images/exemple1.jpg</li>
+			<li class="point">../Images/exemple2.jpg</li>
+			<li class="point">../Images/exemple3.jpg</li>
+		<li>Vous pouvez aussi ajouter votre propre commentaire.</li>
+
+	</ul>
+			</fieldset>
+			
+			<form method="get" action="fonc2.php">
+				<fieldset>
+				<legend>Vous voulez ajouter qch ? </legend>
+				<br/>
+				<label>Id fontaine<font color="red" >*</font></label><input type="text" name="add_id"/>
+				<br/><br/>
+				<label>Url photo</label><input type="text" name="add_url"/>
+				<br/><br/>
+				<input type="submit" name="url_photo" value="Envoyer" />
+				<br/><br/>
+				</fieldset>
+
+				<fieldset>
+				<legend>Commentaire </legend>
+				<textarea rows="10px" cols="50px" name="add_commentaires"></textarea>
+				<br/>
+				<input type="submit" name="commentaires" value="Envoyer" />
+				</fieldset>
+ 			</form>
+
+
+
+</center>
+<footer> © Mingqiang Wang </footer>
+
+</body>
+</html>

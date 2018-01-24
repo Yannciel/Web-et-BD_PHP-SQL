@@ -1,0 +1,127 @@
+header{
+	font-size:35px;
+	color:white;
+	background-image: url(../Images/index4.png) ;
+  	background-position:center;
+}
+
+ul.pointrouge{
+	font-family:Courier, serif;
+	list-style-type: square;
+	padding: 5px;
+	font-size: 17px;
+	text-align: left;
+	text-decoration: none;
+	margin-left: 15px;
+}
+
+li.pointnoir{
+	font-family:Courier, serif;
+	list-style-type: disc;
+	padding: 5px;
+	font-size: 15px;
+	margin-left: 10px;
+	text-align: left;
+	text-decoration: none;
+}
+
+li.point{
+	font-family:Courier, serif;
+	list-style-type: circle;
+	padding: 5px;
+	font-size: 15px;
+	margin-left: 20px;
+	text-align: left;
+	text-decoration: none;
+}
+
+
+ul.menu li
+{	
+	font-family:Courier, serif;
+	display:inline;
+	list-style-type: none;
+	padding: 10px;
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+a:link {color:red;}	
+a:visited {color:pink;}
+a:hover {background-color: gold;}
+
+hr{
+	border-color: red;
+}
+footer{
+	font-size: 20px;
+	font-family:Courier;
+	text-align: center;
+}
+
+h2{
+	font-family:Courier;
+}
+
+h4{
+	font-size: 20px;
+	font-family:Courier;
+}
+
+
+input{
+	font-size: 25px;
+	color:white;
+	background-color: red;
+	font-family:Courier;
+}
+
+textarea{
+	font-size: 15px;
+	color:white;
+	background-color: red;
+	font-family:Courier;
+}
+
+label{
+	font-family:Courier;
+	font-size: 20px;
+	display: block ;
+	float: left ;
+	width: 150px
+}
+
+
+fieldset{
+	border-style: solid;
+	border-width: 5px;
+	width: 500px;
+    margin: 0 auto 15px auto;
+    padding: 10px;
+    border: 2px solid red;
+
+}
+
+legend{
+	font-family:Courier;
+	font-size: 20px;
+}
+
+#Photo{
+	width: 675px;
+	height: 900px;
+	display: table-cell;
+	padding: 10px;
+	float:left;
+}
+
+#Photo1{
+	width: 675px;
+	height: 900px;
+	display: table-cell;
+	padding: 10px;
+}
+
+p{
+	font-family: Courier, serif;
+}
